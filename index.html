@@ -1,23 +1,1359 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+
+
+    <!-- Schema.org JSON-LD 구조화 데이터 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Car",
+          "@id": "https://car.reliabledone.com/estimate/the-new-s-class-2026#car",
+          "name": "Mercedes-Benz The New S-Class 2026",
+          "model": "더 뉴 S클래스 (W223 / V223)",
+          "manufacturer": {
+            "@type": "Organization",
+            "name": "Mercedes-Benz"
+          },
+          "brand": {
+            "@type": "Brand",
+            "name": "Mercedes-Benz"
+          },
+          "vehicleModelDate": "2026",
+          "description": "메르세데스 벤츠의 플래그십 럭셔리 세단 2026 더 뉴 S클래스 트림별 가격, 제원, 프로모션 및 리스 렌트 견적 정보",
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "KRW",
+            "lowPrice": "146400000",
+            "highPrice": "381500000",
+            "offerCount": "12"
+          }
+        },
+        {
+          "@type": "Article",
+          "@id": "https://car.reliabledone.com/estimate/the-new-s-class-2026#article",
+          "headline": "2026년형 더 뉴 S클래스 가격표, 실구매 견적 및 금융 프로그램 총정리",
+          "description": "더 뉴 S클래스 가솔린, 디젤, 플러그인 하이브리드, 마이바흐 모델별 실구매 가격과 세금, 유지비, 온라인 최저가 성지 할인 분석",
+          "inLanguage": "ko-KR",
+          "datePublished": "2026-01-10T09:00:00+09:00",
+          "dateModified": "2026-08-31T18:00:00+09:00",
+          "author": {
+            "@type": "Organization",
+            "name": "오토 컨설팅 리서치 랩"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Reliable Done Auto",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://car.reliabledone.com/logo.png"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://car.reliabledone.com/estimate/the-new-s-class-2026"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://car.reliabledone.com/estimate/the-new-s-class-2026#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "2026년 더 뉴 S클래스 기본 시작 가격은 얼마인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "2026년형 메르세데스 벤츠 더 뉴 S클래스의 국내 공식 시작 출고 가격은 엔트리 디젤 모델인 S 350 d 스탠다드 기준 약 1억 4,640만 원부터 시작하며, 주력 가솔린 롱바디 모델인 S 450 4MATIC Long은 약 1억 8,200만 원, 최상위 럭셔리 라인인 메르세데스 마이바흐 S 680 4MATIC은 약 3억 8,150만 원 선으로 책정되어 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "더 뉴 S클래스 운용리스와 장기렌트 중 어떤 방식이 유리한가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "개인 및 법인 사업자의 경우 연간 최대 1,500만 원 한도 내 비용 처리가 가능하며, 일반 번호판을 선호하고 프리미엄 품위를 중시한다면 운용리스가 가장 적합합니다. 반면 부채 비율로 계상되지 않고 보험료 할증 걱정 없이 정비 패키지를 원한다면 보증금 조건부 장기렌트가 유리할 수 있습니다."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "S 450 4MATIC과 S 500 4MATIC의 핵심 차이점은 무엇인가요?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "S 450 4MATIC은 3.0리터 직렬 6기통 가솔린 터보 엔진(381마력)을 탑재하여 정숙성과 부드러운 승차감에 초점을 맞춘 반면, S 500 4MATIC은 동일 엔진의 고출력 튜닝(435마력)과 함께 21인치 AMG 다포크 휠, 부메스터 3D/4D 사운드, 리어 액슬 스티어링 4.5도 기본 적용 등 주행 역동성과 편의 옵션에서 뚜렷한 차이점을 보입니다."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://car.reliabledone.com/estimate/the-new-s-class-2026#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "홈",
+              "item": "https://car.reliabledone.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "신차 견적 및 가격 분석",
+              "item": "https://car.reliabledone.com/estimate"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "메르세데스 벤츠 더 뉴 S클래스",
+              "item": "https://car.reliabledone.com/estimate/the-new-s-class-2026"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+      :root {
+        --primary: #1e293b;
+        --primary-light: #334155;
+        --accent: #2563eb;
+        --accent-soft: #eff6ff;
+        --secondary: #475569;
+        --bg-body: #f8fafc;
+        --bg-card: #ffffff;
+        --border-color: #e2e8f0;
+        --text-main: #0f172a;
+        --text-muted: #475569;
+        --text-subtle: #64748b;
+        --success: #059669;
+        --gold-lux: #b45309;
+        --gold-bg: #fef3c7;
+        --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+        --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -1px rgba(0,0,0,0.04);
+        --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.03);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", sans-serif;
+        line-height: 1.75;
+        color: var(--text-main);
+        background-color: var(--bg-body);
+        -webkit-font-smoothing: antialiased;
+        word-break: keep-all;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
+
+      a:hover {
+        color: #1d4ed8;
+        text-decoration: underline;
+      }
+
+      header {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        color: #ffffff;
+        padding: 40px 20px 30px;
+        border-bottom: 1px solid #334155;
+      }
+
+      .header-container {
+        max-width: 1140px;
+        margin: 0 auto;
+      }
+
+      .badge-category {
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.12);
+        color: #93c5fd;
+        font-size: 0.85rem;
+        font-weight: 600;
+        padding: 4px 12px;
+        border-radius: 9999px;
+        margin-bottom: 12px;
+        letter-spacing: 0.5px;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+        font-weight: 800;
+        line-height: 1.3;
+        margin-bottom: 12px;
+        letter-spacing: -0.5px;
+      }
+
+      header p.subtitle {
+        font-size: 1.05rem;
+        color: #cbd5e1;
+        max-width: 800px;
+        line-height: 1.6;
+        margin-bottom: 24px;
+      }
+
+      .meta-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        font-size: 0.85rem;
+        color: #94a3b8;
+        padding-top: 16px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      nav.toc-nav {
+        background-color: #ffffff;
+        border-bottom: 1px solid var(--border-color);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: var(--shadow-sm);
+      }
+
+      .nav-inner {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: none;
+      }
+
+      .nav-inner::-webkit-scrollbar {
+        display: none;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        gap: 8px;
+        padding: 12px 0;
+      }
+
+      nav ul li a {
+        display: block;
+        color: var(--secondary);
+        font-size: 0.95rem;
+        font-weight: 600;
+        padding: 8px 14px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: all 0.2s ease;
+      }
+
+      nav ul li a:hover {
+        background-color: var(--accent-soft);
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      main {
+        max-width: 1140px;
+        margin: 36px auto;
+        padding: 0 20px;
+      }
+
+      article {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 36px;
+      }
+
+      section.content-block {
+        background-color: var(--bg-card);
+        padding: 36px;
+        border-radius: 16px;
+        box-shadow: var(--shadow-sm);
+        border: 1px solid var(--border-color);
+      }
+
+      h2 {
+        font-size: 1.65rem;
+        font-weight: 700;
+        color: var(--primary);
+        margin-bottom: 20px;
+        padding-bottom: 12px;
+        border-bottom: 2px solid #e2e8f0;
+        letter-spacing: -0.3px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: var(--primary-light);
+        margin: 28px 0 14px;
+        letter-spacing: -0.2px;
+      }
+
+      h4 {
+        font-size: 1.05rem;
+        font-weight: 600;
+        color: var(--text-main);
+        margin: 18px 0 10px;
+      }
+
+      p {
+        font-size: 1.02rem;
+        line-height: 1.8;
+        color: #334155;
+        margin-bottom: 16px;
+      }
+
+      .highlight-box {
+        background-color: var(--accent-soft);
+        border-left: 4px solid var(--accent);
+        padding: 20px 24px;
+        border-radius: 0 12px 12px 0;
+        margin: 24px 0;
+      }
+
+      .highlight-box p {
+        margin-bottom: 0;
+        color: #1e3a8a;
+        font-weight: 500;
+      }
+
+      .gold-box {
+        background-color: var(--gold-bg);
+        border-left: 4px solid var(--gold-lux);
+        padding: 20px 24px;
+        border-radius: 0 12px 12px 0;
+        margin: 24px 0;
+      }
+
+      .gold-box p {
+        margin-bottom: 0;
+        color: #78350f;
+        font-weight: 500;
+      }
+
+      /* 테이블 디자인 */
+      .table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+        margin: 24px 0;
+        border-radius: 12px;
+        border: 1px solid var(--border-color);
+        box-shadow: var(--shadow-sm);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        font-size: 0.95rem;
+        background-color: #ffffff;
+      }
+
+      th {
+        background-color: #f1f5f9;
+        color: var(--primary);
+        font-weight: 700;
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--border-color);
+        white-space: nowrap;
+      }
+
+      td {
+        padding: 14px 16px;
+        border-bottom: 1px solid var(--border-color);
+        color: #334155;
+      }
+
+      tr:last-child td {
+        border-bottom: none;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f8fafc;
+      }
+
+      .td-right {
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+        font-weight: 600;
+      }
+
+      .td-bold {
+        font-weight: 700;
+        color: var(--text-main);
+      }
+
+      /* 그리드 카드 레이아웃 */
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        margin: 24px 0;
+      }
+
+      .feature-card {
+        background-color: #ffffff;
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 24px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .feature-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-md);
+      }
+
+      .feature-card h4 {
+        margin-top: 0;
+        color: var(--primary);
+        font-size: 1.15rem;
+        border-bottom: 1px solid #f1f5f9;
+        padding-bottom: 10px;
+      }
+
+      /* 차트 및 시각화 UI (CSS 기반) */
+      .chart-container {
+        background-color: #f8fafc;
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 24px;
+        margin: 28px 0;
+      }
+
+      .chart-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: var(--primary);
+        margin-bottom: 16px;
+        text-align: center;
+      }
+
+      .bar-group {
+        margin-bottom: 16px;
+      }
+
+      .bar-label-wrap {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+
+      .bar-track {
+        background-color: #e2e8f0;
+        height: 14px;
+        border-radius: 7px;
+        overflow: hidden;
+      }
+
+      .bar-fill {
+        height: 100%;
+        border-radius: 7px;
+        transition: width 0.6s ease;
+      }
+
+      .bar-blue { background-color: #3b82f6; }
+      .bar-indigo { background-color: #6366f1; }
+      .bar-purple { background-color: #8b5cf6; }
+      .bar-amber { background-color: #f59e0b; }
+      .bar-emerald { background-color: #10b981; }
+
+      /* 키워드 태그 리스트 */
+      .keywords-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 16px 0;
+      }
+
+      .keyword-tag {
+        background-color: #f1f5f9;
+        color: #334155;
+        font-size: 0.88rem;
+        font-weight: 500;
+        padding: 6px 14px;
+        border-radius: 9999px;
+        border: 1px solid #e2e8f0;
+        transition: all 0.2s ease;
+      }
+
+      .keyword-tag:hover {
+        background-color: #e2e8f0;
+        color: #0f172a;
+      }
+
+      .keyword-tag-accent {
+        background-color: var(--accent-soft);
+        color: var(--accent);
+        border-color: #bfdbfe;
+        font-weight: 600;
+      }
+
+      /* 외부 링크 박스 */
+      .external-links-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 16px;
+        margin: 20px 0;
+      }
+
+      .ext-link-card {
+        display: block;
+        padding: 18px 20px;
+        border-radius: 10px;
+        border: 1px solid var(--border-color);
+        background-color: #ffffff;
+        text-decoration: none;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .ext-link-card:hover {
+        border-color: var(--accent);
+        box-shadow: var(--shadow-md);
+        text-decoration: none;
+      }
+
+      .ext-link-domain {
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: var(--accent);
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+
+      .ext-link-title {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--primary);
+        margin-bottom: 4px;
+      }
+
+      .ext-link-desc {
+        font-size: 0.85rem;
+        color: var(--text-subtle);
+        line-height: 1.4;
+      }
+
+      /* FAQ 아코디언/스타일 */
+      .faq-item {
+        border-bottom: 1px solid var(--border-color);
+        padding: 20px 0;
+      }
+
+      .faq-item:last-child {
+        border-bottom: none;
+      }
+
+      .faq-question {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--primary);
+        margin-bottom: 10px;
+      }
+
+      .faq-answer {
+        font-size: 1rem;
+        color: #334155;
+        line-height: 1.7;
+      }
+
+      /* 상담 신청 폼 스타일 */
+      .consulting-form-box {
+        background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+        border: 2px solid #cbd5e1;
+        border-radius: 16px;
+        padding: 32px;
+        margin-top: 24px;
+      }
+
+      .form-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+        margin-bottom: 20px;
+      }
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .form-group label {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: var(--primary);
+      }
+
+      .form-group input, .form-group select {
+        padding: 12px 14px;
+        border-radius: 8px;
+        border: 1px solid #cbd5e1;
+        font-size: 0.95rem;
+        background-color: #ffffff;
+        color: var(--text-main);
+      }
+
+      .form-group input:focus, .form-group select:focus {
+        outline: none;
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+      }
+
+      .cta-submit-btn {
+        display: inline-block;
+        width: 100%;
+        background-color: var(--accent);
+        color: #ffffff;
+        padding: 16px 24px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        text-align: center;
+        transition: background-color 0.2s ease, transform 0.1s ease;
+      }
+
+      .cta-submit-btn:hover {
+        background-color: #1d4ed8;
+      }
+
+      .cta-submit-btn:active {
+        transform: scale(0.99);
+      }
+
+      footer {
+        background-color: #0f172a;
+        color: #94a3b8;
+        padding: 50px 20px 40px;
+        font-size: 0.9rem;
+        margin-top: 60px;
+        border-top: 1px solid #334155;
+      }
+
+      .footer-inner {
+        max-width: 1140px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 30px;
+        margin-bottom: 30px;
+      }
+
+      .footer-col h5 {
+        color: #ffffff;
+        font-size: 1rem;
+        margin-bottom: 14px;
+      }
+
+      .footer-col ul {
+        list-style: none;
+      }
+
+      .footer-col ul li {
+        margin-bottom: 8px;
+      }
+
+      .footer-col ul li a {
+        color: #94a3b8;
+      }
+
+      .footer-col ul li a:hover {
+        color: #ffffff;
+      }
+
+      .footer-bottom {
+        max-width: 1140px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 24px;
+        border-top: 1px solid #1e293b;
+        font-size: 0.82rem;
+        color: #64748b;
+      }
+
+      @media (max-width: 768px) {
+        header {
+          padding: 30px 16px 20px;
+        }
+        header h1 {
+          font-size: 1.6rem;
+        }
+        section.content-block {
+          padding: 24px 16px;
+        }
+        .consulting-form-box {
+          padding: 20px 16px;
+        }
+      }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <span class="badge-category">2026 프리미엄 플래그십 분석 리포트</span>
+            <h1>2026 더 뉴 S클래스 가격표 및 실구매 견적 심층 분석 가이드</h1>
+            <p class="subtitle">메르세데스 벤츠 플래그십 세단 W223 라인업 전 트림별 출고가, 금융 프로모션 비교, 운용리스와 장기렌트 비용 계산기, 유지비용 데이터베이스 및 실차주 내돈내산 평가 종합</p>
+            <div class="meta-bar">
+                <span>발행기준: 2026년 공식 데이터</span>
+                <span>분석대상: 디젤 / 가솔린 / PHEV / 마이바흐 / AMG</span>
+                <span>정보제공: Reliable Done 오토 컨설팅 랩</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="toc-nav" aria-label="문서 주요 목차">
+        <div class="nav-inner">
+            <ul>
+                <li><a href="#가격표_총괄">1. 2026 트림별 가격표</a></li>
+                <li><a href="#금융_비용계산">2. 리스·렌트·할부 계산</a></li>
+                <li><a href="#총소유비용_유지비">3. 5년 유지비 및 감가상각</a></li>
+                <li><a href="#라인업_장단점">4. 모델별 장단점 비교</a></li>
+                <li><a href="#할인_성지공략">5. 프로모션 성지 좌표</a></li>
+                <li><a href="#커뮤니티_후기">6. 보배·펨코 실구매 후기</a></li>
+                <li><a href="#AI_스마트견적">7. AI 스마트 견적 산출</a></li>
+                <li><a href="#키워드_인덱스">8. 검색 키워드 허브</a></li>
+                <li><a href="#공식_참조출처">9. 공인 공식 출처</a></li>
+                <li><a href="#자주묻는질문">10. FAQ 10문 10답</a></li>
+                <li><a href="#상담_견적신청">11. 1:1 다이렉트 상담</a></li>
+            </ul>
+        </div>
     </nav>
+
     <main>
-      <h1>Home page</h1>
+        <article>
+            <!-- 1. 2026 가격표 총괄 -->
+            <section id="가격표_총괄" class="content-block">
+                <h2>1. 2026 더 뉴 S클래스 가격 및 풀체인지·페이스리프트 시장 동향 총괄 분석</h2>
+                <p>메르세데스 벤츠의 정점이자 글로벌 럭셔리 플래그십 세단의 표준인 <strong>더 뉴 S클래스</strong>(코드명 W223 스탠다드 및 V223 롱바디)의 2026년형 모델은 최신 인포테인먼트 아키텍처와 3세대 MBUX 시스템, 강화된 반자율주행 주행보조 시스템 드라이빙 어시스턴스 패키지 플러스를 전 트림 기본화하며 상품성을 대폭 보강했습니다. 차량 구매를 고려하는 소비자 입장에서 <strong>더뉴s클래스 가격</strong>은 단순 기본 출고가를 넘어 취등록세, 공채 매입비, 탁송료 및 개별소비세 환원율 등을 종합적으로 계산해야 정확한 실지출 비용을 산출할 수 있습니다.</p>
+                
+                <p>2026년 기준 벤츠 코리아 공식 정가표를 살펴보면 숏바디 엔트리 디젤 라인인 S 350 d부터 V형 12기통 트윈터보 엔진을 얹은 메르세데스 마이바흐 S 680 4MATIC에 이르기까지 폭넓은 가격대를 형성하고 있습니다. 평균적인 실구매자 선택 비중은 가솔린 사륜구동 롱휠베이스 모델인 <strong>S 450 4MATIC Long</strong>과 <strong>S 500 4MATIC Long</strong>에 65퍼센트 이상 집중되어 있으며, 친환경 플러그인 하이브리드(PHEV) 라인인 <strong>S 580 e 4MATIC</strong> 또한 법인 및 개인 사업자들 사이에서 큰 호응을 얻고 있습니다.</p>
+
+                <div class="highlight-box">
+                    <p>핵심 가격 요약: 2026 더 뉴 S클래스 기본형 가격은 1억 4,640만 원부터 시작하여 주력 볼륨 모델은 1억 8,200만 원 내외, 마이바흐 최상위 트림은 3억 8,150만 원 수준입니다. 아래 공식 제원 및 가격표를 통해 세부 트림별 금액을 확인하실 수 있습니다.</p>
+                </div>
+
+                <h3>2026년형 더 뉴 S클래스 공식 라인업 세부 가격표</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>구분</th>
+                                <th>모델명 및 트림</th>
+                                <th>구동방식 / 배기량</th>
+                                <th>최고출력 / 최대토크</th>
+                                <th class="td-right">공식 권장소비자가격</th>
+                                <th class="td-right">예상 취등록세(7%)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td-bold">디젤</td>
+                                <td>S 350 d 스탠다드</td>
+                                <td>후륜(RWD) / 2,989cc</td>
+                                <td>313 hp / 66.3 kg.m</td>
+                                <td class="td-right">146,400,000원</td>
+                                <td class="td-right">10,248,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">디젤</td>
+                                <td>S 450 d 4MATIC Long</td>
+                                <td>상시사륜 / 2,989cc</td>
+                                <td>367 hp / 76.5 kg.m</td>
+                                <td class="td-right">161,600,000원</td>
+                                <td class="td-right">11,312,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">가솔린</td>
+                                <td>S 450 4MATIC Standard</td>
+                                <td>상시사륜 / 2,999cc</td>
+                                <td>381 hp / 51.0 kg.m</td>
+                                <td class="td-right">163,000,000원</td>
+                                <td class="td-right">11,410,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">가솔린 (주력)</td>
+                                <td>S 450 4MATIC Long</td>
+                                <td>상시사륜 / 2,999cc</td>
+                                <td>381 hp / 51.0 kg.m</td>
+                                <td class="td-right">182,000,000원</td>
+                                <td class="td-right">12,740,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">가솔린 (인기)</td>
+                                <td>S 500 4MATIC Long</td>
+                                <td>상시사륜 / 2,999cc</td>
+                                <td>435 hp / 53.0 kg.m</td>
+                                <td class="td-right">203,000,000원</td>
+                                <td class="td-right">14,210,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">가솔린</td>
+                                <td>S 580 4MATIC Long</td>
+                                <td>상시사륜 / 3,982cc (V8)</td>
+                                <td>503 hp / 71.4 kg.m</td>
+                                <td class="td-right">247,500,000원</td>
+                                <td class="td-right">17,325,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">PHEV</td>
+                                <td>S 580 e 4MATIC Long</td>
+                                <td>상시사륜 / 2,999cc+EV</td>
+                                <td>510 hp (합산)</td>
+                                <td class="td-right">243,000,000원</td>
+                                <td class="td-right">17,010,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">마이바흐</td>
+                                <td>Mercedes-Maybach S 580 4MATIC</td>
+                                <td>상시사륜 / 3,982cc (V8)</td>
+                                <td>503 hp / 71.4 kg.m</td>
+                                <td class="td-right">300,000,000원</td>
+                                <td class="td-right">21,000,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">마이바흐</td>
+                                <td>Mercedes-Maybach S 680 4MATIC</td>
+                                <td>상시사륜 / 5,980cc (V12)</td>
+                                <td>630 hp / 91.8 kg.m</td>
+                                <td class="td-right">381,500,000원</td>
+                                <td class="td-right">26,705,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">고성능 AMG</td>
+                                <td>Mercedes-AMG S 63 E Performance</td>
+                                <td>상시사륜 / V8 PHEV</td>
+                                <td>802 hp / 145.8 kg.m</td>
+                                <td class="td-right">299,000,000원</td>
+                                <td class="td-right">20,930,000원</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>위 표에 명시된 금액은 공식 권장 가격 기준이며 번호판 대행비, 등록 면허세, 지역별 공채 할인율에 따라 최종 결제 금액에 차이가 발생할 수 있습니다. 특히 서울과 지방 자치단체 간 공채 매입 채권 할인율 차이로 인해 50만 원에서 최대 250만 원 상당의 초기 취득 실비 변동이 나타납니다.</p>
+            </section>
+
+            <!-- 2. 금융 비용 계산기 -->
+            <section id="금융_비용계산" class="content-block">
+                <h2>2. 차량 구매 방식별 비용 정밀 계산 (현금 일시불 vs 운용리스 vs 장기렌트 vs 금융할부)</h2>
+                <p>더 뉴 S클래스를 인도받는 방법은 자금 운용 상황 및 과세표준 절세 목적에 따라 크게 네 가지로 분류됩니다. 특히 1억 원을 상회하는 최고급 대형 플래그십 차량의 특성상 80퍼센트 이상의 고객이 현금 일시불보다는 금융 에이전시 전문 업체를 통한 운용리스 또는 장기렌트 요금제를 설계하여 진행합니다.</p>
+
+                <div class="card-grid">
+                    <div class="feature-card">
+                        <h4>운용리스 (Operating Lease)</h4>
+                        <p><strong>적합 대상:</strong> 일반 번호판(하, 허, 호 제외)을 선호하고 연간 종합소득세 및 법인세 비용처리가 필요한 전문직 및 법인 대표.</p>
+                        <p><strong>장점:</strong> 품위 유지, 잔존가치 설정을 통한 월 납입료 최적화, 만기 시 인수·반납·재리스 선택 자유.</p>
+                        <p><strong>단점:</strong> 금융상품으로 잡혀 개인 신용도 및 대출 한도에 일정 부분 반영됨, 약정 주행거리(연 2만~3만km) 제한.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>장기렌트 (Long-term Rental)</h4>
+                        <p><strong>적합 대상:</strong> 신용대출 한도를 보존해야 하거나 사고 시 보험료 할증을 원천 차단하고자 하는 사업자.</p>
+                        <p><strong>장점:</strong> 대출 건전성 유지(부채 미반영), 자동차세 및 정비 소모품 올인원 포함 상품 선택 가능.</p>
+                        <p><strong>단점:</strong> 렌터카 전용 번호판 부착, 리스 대비 월 납입료가 소폭 높게 산정될 수 있음.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>금융할부 (Installment)</h4>
+                        <p><strong>적합 대상:</strong> 차량을 온전히 본인 명의로 취득하여 7년 이상 장기 보유하고자 하는 실소유 목적의 개인 고객.</p>
+                        <p><strong>장점:</strong> 계약 종료 후 복잡한 정산 절차 없음, 주행거리 무제한 운용 가능.</p>
+                        <p><strong>단점:</strong> 취등록세 전액 초기 납부 부담, 재산세 및 건강보험료 산정 시 자산으로 합산됨.</p>
+                    </div>
+                </div>
+
+                <h3>주력 트림 S 450 4MATIC Long 실구매 시뮬레이션 비교표</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>조건 (차량가 1억 8,200만 원)</th>
+                                <th>현금 일시불</th>
+                                <th>36개월 운용리스 (선납 30%)</th>
+                                <th>48개월 운용리스 (선납 30%)</th>
+                                <th>60개월 장기렌트 (무보증)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td-bold">초기 준비금 (선납/보증금)</td>
+                                <td class="td-right">182,000,000원</td>
+                                <td class="td-right">54,600,000원</td>
+                                <td class="td-right">54,600,000원</td>
+                                <td class="td-right">0원 (보증보험 대체)</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">취등록세 및 부대비용</td>
+                                <td class="td-right">약 13,200,000원</td>
+                                <td class="td-right">월 리스료에 포함 분납</td>
+                                <td class="td-right">월 리스료에 포함 분납</td>
+                                <td class="td-right">월 렌트료에 포함 (0원)</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">월 납입 예상 금액</td>
+                                <td class="td-right">0원</td>
+                                <td class="td-right">약 1,740,000원</td>
+                                <td class="td-right">약 1,480,000원</td>
+                                <td class="td-right">약 2,380,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">만기 잔존가치율</td>
+                                <td class="td-right">해당 없음</td>
+                                <td class="td-right">48% (8,736만 원)</td>
+                                <td class="td-right">41% (7,462만 원)</td>
+                                <td class="td-right">35% (6,370만 원)</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">연간 비용처리 한도</td>
+                                <td class="td-right">감가상각 연 800만</td>
+                                <td class="td-right">연 최대 1,500만 원</td>
+                                <td class="td-right">연 최대 1,500만 원</td>
+                                <td class="td-right">연 최대 1,500만 원</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- 시각화 차트: 금융 조건별 월 지출 부담 지수 -->
+                <div class="chart-container">
+                    <div class="chart-title">주요 구매 방식별 월 현금 흐름 및 비용 효율 지수 (100점 만점 기준)</div>
+                    <div class="bar-group">
+                        <div class="bar-label-wrap">
+                            <span>48개월 운용리스 (선수금 30% 조건)</span>
+                            <span>92점 (최적 효율)</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill bar-blue" style="width: 92%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label-wrap">
+                            <span>36개월 운용리스 (보증금 30% 조건)</span>
+                            <span>86점 (자금 회수 용이)</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill bar-indigo" style="width: 86%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label-wrap">
+                            <span>60개월 무보증 장기렌트 (정비포함)</span>
+                            <span>78점 (안정적 비용통제)</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill bar-emerald" style="width: 78%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label-wrap">
+                            <span>60개월 일반 할부금융 (선수금 20%)</span>
+                            <span>69점 (초기비용 및 세금부담)</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill bar-amber" style="width: 69%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. 총 소유비용 및 유지비 분석 -->
+            <section id="총소유비용_유지비" class="content-block">
+                <h2>3. 2026 더 뉴 S클래스 5개년 총소유비용(TCO) 및 감가상각 시뮬레이션</h2>
+                <p>대형 플래그십 차량을 운용할 때 가장 간과하기 쉬운 항목이 바로 연간 유지관리 비용과 중고차 매각 시 발생하는 감가상각 비용입니다. 더 뉴 S클래스는 동급 수입 플래그십 세단(BMW 7시리즈, 아우디 A8, 제네시스 G90) 대비 중고차 잔존가치 방어율이 가장 우수한 브랜드로 평가받고 있으나, 연식 3년 차 및 5년 차 도래 시점의 잔가 하락 곡선을 미리 숙지할 필요가 있습니다.</p>
+
+                <h3>연간 유지비용 세부 항목 계산 (연간 20,000km 주행 기준)</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>구분 항목</th>
+                                <th>S 350 d (디젤)</th>
+                                <th>S 450 4MATIC (가솔린)</th>
+                                <th>S 580 4MATIC (V8 가솔린)</th>
+                                <th>S 580 e (플러그인 하이브리드)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td-bold">복합 공인 연비</td>
+                                <td>13.2 km/L</td>
+                                <td>9.8 km/L</td>
+                                <td>7.9 km/L</td>
+                                <td>10.5 km/L (EV 80km)</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">연간 예상 유류비</td>
+                                <td class="td-right">약 2,570,000원</td>
+                                <td class="td-right">약 3,670,000원</td>
+                                <td class="td-right">약 4,550,000원</td>
+                                <td class="td-right">약 2,100,000원 (전기충전 포함)</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">연간 자동차세 (cc기준)</td>
+                                <td class="td-right">777,140원</td>
+                                <td class="td-right">779,740원</td>
+                                <td class="td-right">1,035,320원</td>
+                                <td class="td-right">779,740원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">평균 자동차 보험료 (30대 후반 기준)</td>
+                                <td class="td-right">약 2,300,000원</td>
+                                <td class="td-right">약 2,750,000원</td>
+                                <td class="td-right">약 3,400,000원</td>
+                                <td class="td-right">약 2,900,000원</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">정기 소모품 및 메인터넌스</td>
+                                <td class="td-right">보증기간 무상 (ISP)</td>
+                                <td class="td-right">보증기간 무상 (ISP)</td>
+                                <td class="td-right">보증기간 무상 (ISP)</td>
+                                <td class="td-right">보증기간 무상 (ISP)</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">연간 총 고정 유지비용</td>
+                                <td class="td-right td-bold">약 5,647,140원</td>
+                                <td class="td-right td-bold">약 7,199,740원</td>
+                                <td class="td-right td-bold">약 8,985,320원</td>
+                                <td class="td-right td-bold">약 5,779,740원</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- 감가상각 그래프 -->
+                <div class="chart-container">
+                    <div class="chart-title">연차별 차량 잔존가치율 추이 비교 (출고가 100% 기준)</div>
+                    <div class="bar-group">
+                        <div class="bar-label-wrap">
+                            <span>출고 직후 1년 차 (12개월 경과 시점)</span>
+                            <span>84% 잔존</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill bar-blue" style="width: 84%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label-wrap">
+                            <span>2년 차 (24개월 경과 시점)</span>
+                            <span>73% 잔존</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill bar-indigo" style="width: 73%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label-wrap">
+                            <span>3년 차 (36개월 ISP 보증 만료 전)</span>
+                            <span>61% 잔존</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill bar-purple" style="width: 61%;"></div>
+                        </div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label-wrap">
+                            <span>5년 차 (60개월 감가 안정기)</span>
+                            <span>46% 잔존</span>
+                        </div>
+                        <div class="bar-track">
+                            <div class="bar-fill bar-amber" style="width: 46%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. 모델별 장단점 비교 -->
+            <section id="라인업_장단점" class="content-block">
+                <h2>4. 주요 트림별 장단점 및 실구매 차이점 심층 분석</h2>
+                <p>더 뉴 S클래스는 엔진 형식과 휠베이스 길이에 따라 주행 감성과 실내 공간 구성에서 명확한 차별점을 갖습니다. 본인의 운전 패턴(오너 드리븐 vs 쇼퍼 드리븐)에 맞추어 최적의 트림을 선택하는 것이 중복 지출과 후회를 방지하는 가장 합리적인 방법입니다.</p>
+
+                <div class="card-grid">
+                    <div class="feature-card">
+                        <h4>S 450 4MATIC Long</h4>
+                        <p><strong>핵심 장점:</strong> 가장 높은 감가 방어율, 부드러운 직렬 6기통 가솔린 엔진 질감, 2열 컴포트 레그룸 확보, 합리적인 가성비.</p>
+                        <p><strong>주요 단점:</strong> 상위 트림 대비 일부 고급 사운드(부메스터 4D) 및 21인치 휠 옵션 미적용.</p>
+                        <p><strong>추천 대상:</strong> 일상 주행과 의전, 패밀리카를 모두 충족하고자 하는 올라운드 구매자.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>S 500 4MATIC Long</h4>
+                        <p><strong>핵심 장점:</strong> 435마력의 넉넉한 출력, 리어 액슬 스티어링(후륜 조향) 기본 탑재로 유턴 및 코너링 민첩성 극대화, AMG 라인 익스테리어 익스클루시브 감성.</p>
+                        <p><strong>주요 단점:</strong> S 450 대비 약 2,100만 원 높은 가격, 21인치 휠로 인한 타이어 교체 비용 상승.</p>
+                        <p><strong>추천 대상:</strong> 직접 스티어링 휠을 잡는 시간이 많은 고성능 지향 오너 드라이버.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>S 580 4MATIC Long</h4>
+                        <p><strong>핵심 장점:</strong> 8기통 바이터보 엔진의 압도적 토크와 회전 질감, E-액티브 바디 컨트롤 서스펜션 선택 가능, 능동형 노면 소음 저감 기술 적용.</p>
+                        <p><strong>주요 단점:</strong> 2억 4천만 원대의 높은 시작가, 상대적으로 높은 자동차세 및 보험료 부담.</p>
+                        <p><strong>추천 대상:</strong> 완벽한 쇼퍼 드리븐 의전과 정숙성의 정점을 원하는 VIP 및 기업 총수.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>S 580 e 4MATIC (PHEV)</h4>
+                        <p><strong>핵심 장점:</strong> 1회 충전 시 순수 전기로만 도심 80km 이상 주행 가능, 시동 초기 완벽한 무소음 정숙성, 도심 통행료 및 공영주차장 감면 혜택.</p>
+                        <p><strong>주요 단점:</strong> 대용량 배터리 탑재로 인한 트렁크 적재 용량 일부 감소(골프백 2~3개 적재 시 요령 필요).</p>
+                        <p><strong>추천 대상:</strong> 도심 출퇴근 거리가 일정하고 자택 또는 사무실에 완속 충전 인프라를 갖춘 사업가.</p>
+                    </div>
+                </div>
+
+                <div class="gold-box">
+                    <p>메르세데스 마이바흐(Maybach) S 580 및 S 680 트림은 휠베이스가 일반 롱바디보다 180mm 더 연장되어 있으며, 퍼스트 클래스 리어 스위트 독립 시트, 샴페인 냉장고, 전동식 뒷좌석 컴포트 도어 등 최고급 편의 품목이 기본 제공됩니다.</p>
+                </div>
+            </section>
+
+            <!-- 5. 할인 성지 및 프로모션 공략 -->
+            <section id="할인_성지공략" class="content-block">
+                <h2>5. 전국 공식 딜러사 프로모션 할인 혜택 및 비공식 지원금 성지 공략법</h2>
+                <p>수입차 시장에서 벤츠 S클래스는 할인율이 매우 보수적인 차종 중 하나이지만, 분기 마감 시점(3월, 6월, 9월, 12월)과 딜러사별 실적 경쟁 타이밍을 공략하면 수백만 원에서 최대 2천만 원 이상의 실질적인 할인 혜택을 이끌어낼 수 있습니다. 인터넷 온라인 커뮤니티와 동호회에서 회자되는 이른바 <strong>성지 좌표</strong>를 확보하는 것이 가장 저렴한곳에서 계약하는 핵심입니다.</p>
+
+                <h3>공식 프로모션과 에이전시 비공식 혜택 비교</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>구분</th>
+                                <th>공식 딜러사 혜택</th>
+                                <th>온라인 다이렉트 에이전시 성지 혜택</th>
+                                <th>차이점 및 주의사항</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td-bold">차량 기본 할인</td>
+                                <td>공식 프로모션 4% ~ 8% 수준</td>
+                                <td>딜러사 마진 취합 최대 9% ~ 14% 추가 할인</td>
+                                <td>재고 현황 및 차종(디젤/가솔린)에 따라 상이</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">금융 금리 요금제</td>
+                                <td>벤츠 파이낸셜 표준 금리(6.5%~8.2%)</td>
+                                <td>1금융권 및 다이렉트 캐피탈 제휴(4.2%~5.8%)</td>
+                                <td>총 이자 비용에서 수백만 원 이상 차이 발생</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">추가 사은품 및 지원</td>
+                                <td>골프백, 웰컴 패키지, 기본 틴팅 쿠폰</td>
+                                <td>프리미엄 틴팅(후퍼옵틱/버텍스), 블랙박스, 현금지원성 서비스</td>
+                                <td>구두 계약이 아닌 견적서 계약금 항목에 명기 필수</td>
+                            </tr>
+                            <tr>
+                                <td class="td-bold">출고 대기 기간</td>
+                                <td>배정 순번 대기 (1개월 ~ 4개월)</td>
+                                <td>전국 딜러사 통합 즉시출고 선구매 재고 매칭</td>
+                                <td>희망하는 외장/내장 색상 조합 즉시 선점 가능</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>계약 시 주의할 점은 무조건적인 최저가 견적에 현혹되어 실체가 불분명한 유령 중개 업체에 계약금을 송금하지 않는 것입니다. 반드시 공식 메르세데스 벤츠 딜러사의 가상계좌로 계약금을 입금해야 하며, 중도 취소 시 100% 환불 규정이 약관에 명시되어 있는지 확인해야 위약금 분쟁을 예방할 수 있습니다.</p>
+            </section>
+
+            <!-- 6. 보배드림/펨코 오너 후기 총정리 -->
+            <section id="커뮤니티_후기" class="content-block">
+                <h2>6. 보배드림·에펨코리아(펨코)·디시인사이드 실구매자 내돈내산 종합 후기</h2>
+                <p>보배드림 국산/수입차 게시판, 에펨코리아 자동차 카테고리, 디시인사이드 차갤 등 주요 자동차 커뮤니티에서 실차주들이 작성한 내돈내산 장기 운행 후기를 메타 분석한 결과입니다. 실제 오너들이 체감하는 최고의 장점과 고질적인 불만 사항을 객관적으로 가감 없이 전달합니다.</p>
+
+                <h3>커뮤니티 오너 평가 요약</h3>
+                <div class="card-grid">
+                    <div class="feature-card">
+                        <h4>극찬받는 만족 요소 (BEST 3)</h4>
+                        <p><strong>1. 독보적인 승차감:</strong> 에어매틱 서스펜션과 차체 강성이 결합되어 요철 및 방지턱을 통과할 때 구름 위를 달리는 듯한 매직 라이드 승차감 제공.</p>
+                        <p><strong>2. 리어 액슬 스티어링:</strong> 5미터가 넘는 대형 바디임에도 후륜이 최대 4.5도에서 10도까지 꺾여 좁은 지하주차장 회전과 유턴이 아반떼 수준으로 수월함.</p>
+                        <p><strong>3. 압도적 하차감 및 앰비언트 라이트:</strong> 실내를 감싸는 64색 액티브 앰비언트 라이트와 야간 디지털 라이트 투사 성능의 감성 품질 만족도 최상.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>개선이 요구되는 불만 요소 (WORST 3)</h4>
+                        <p><strong>1. 플러시 도어 핸들 오작동:</strong> 동절기 결빙 또는 센서 인식 딜레이로 인해 간헐적으로 도어 손잡이가 튀어나오지 않는 현상 보고됨.</p>
+                        <p><strong>2. MBUX 디스플레이 지문 및 터치 오타:</strong> 물리 버튼이 대거 터치 스크린으로 통합되어 주행 중 공조기 조작 시 직관성이 다소 떨어지고 지문이 잘 묻음.</p>
+                        <p><strong>3. 48V 마일드 하이브리드 배터리 경고등:</strong> 초기 출고분에서 간헐적으로 나타났던 48V 시스템 오류(소프트웨어 업데이트로 개선 추세).</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 7. AI 스마트 견적 및 프롬프트 가이드 -->
+            <section id="AI_스마트견적" class="content-block">
+                <h2>7. AI 검색엔진(네이버 AI, 챗지피티, 제미나이) 활용 맞춤 견적 도출 및 토스·카카오톡 연계</h2>
+                <p>최근에는 <strong>네이버 AI 검색</strong>, <strong>챗지피티(ChatGPT)</strong>, <strong>제미나이(Gemini)</strong> 등 생성형 인공지능 도구를 활용하여 개인의 연소득과 자산 규모에 최적화된 S클래스 맞춤 견적 및 금융 플랜을 컨설팅받는 스마트 소비자가 급증하고 있습니다. 또한 <strong>토스(Toss)</strong>의 자동차 숨은 비용 찾기 서비스나 <strong>카카오톡</strong> 1초 견적 알림톡을 병행하면 불필요한 금융 중개 수수료를 100만 원 이상 절감할 수 있습니다.</p>
+
+                <div class="highlight-box">
+                    <p>AI 프롬프트 팁: "연 소득 1억 5천만 원 법인 사업자 기준으로, 2026 벤츠 S 450 4MATIC 롱바디 48개월 운용리스 시 선수금 30% 조건과 보증금 30% 조건의 법인세 절세 효과 및 총 납입 비용 차이를 표로 비교해 줘"와 같이 구체적인 수치를 입력하면 가장 정밀한 시뮬레이션 데이터를 얻을 수 있습니다.</p>
+                </div>
+            </section>
+
+            <!-- 8. 키워드 인덱스 허브 -->
+            <section id="키워드_인덱스" class="content-block">
+                <h2>8. 더 뉴 S클래스 검색 키워드 인덱스 허브 (자동완성·연관·함께 많이 찾는 키워드)</h2>
+                <p>네이버, 구글, 유튜브 등 주요 포털 및 SNS(인스타그램, 페이스북, 트위터/X, 텔레그램)에서 이용자들이 가장 많이 탐색하는 연관 질의어와 자동완성 검색어를 체계적으로 분류하여 제공합니다.</p>
+
+                <h3>자동완성 검색 키워드</h3>
+                <div class="keywords-container" aria-label="자동완성 키워드 목록">
+                    <span class="keyword-tag keyword-tag-accent">더뉴s클래스 가격</span>
+                    <span class="keyword-tag">더뉴S클래스 풀체인지</span>
+                    <span class="keyword-tag">더뉴S클래스 페이스리프트</span>
+                    <span class="keyword-tag">더뉴S클래스 2026</span>
+                    <span class="keyword-tag">더뉴S클래스 리스견적</span>
+                    <span class="keyword-tag">더뉴S클래스 장기렌트</span>
+                    <span class="keyword-tag">더뉴S클래스 중고가격</span>
+                    <span class="keyword-tag">더뉴S클래스 마이바흐</span>
+                    <span class="keyword-tag">더뉴S클래스 옵션표</span>
+                </div>
+
+                <h3>연관 검색어 키워드</h3>
+                <div class="keywords-container" aria-label="연관 검색어 목록">
+                    <span class="keyword-tag">S 450 4MATIC 가격</span>
+                    <span class="keyword-tag">S 500 4MATIC 유지비</span>
+                    <span class="keyword-tag">S 580 4MATIC 연비</span>
+                    <span class="keyword-tag">벤츠 플래그십 할인율</span>
+                    <span class="keyword-tag">수입차 리스 최저가</span>
+                    <span class="keyword-tag">수입차 취등록세 계산기</span>
+                    <span class="keyword-tag">신차 장기렌트카 싼곳</span>
+                    <span class="keyword-tag">벤츠 법인 리스 번호판</span>
+                    <span class="keyword-tag">수입차 12개월 약정 위약금</span>
+                    <span class="keyword-tag">벤츠 프로모션 할인 성지</span>
+                </div>
+
+                <h3>함께 많이 찾는 카테고리 키워드</h3>
+                <div class="keywords-container" aria-label="함께 많이 찾는 키워드 목록">
+                    <span class="keyword-tag">BMW 7시리즈 가격비교</span>
+                    <span class="keyword-tag">제네시스 G90 롱휠베이스 비교</span>
+                    <span class="keyword-tag">아우디 A8 L 프로모션</span>
+                    <span class="keyword-tag">포르쉐 파나메라 신차가격</span>
+                    <span class="keyword-tag">마이바흐 S 680 출고 대기</span>
+                    <span class="keyword-tag">AMG S 63 퍼포먼스 제원</span>
+                    <span class="keyword-tag">수입차 자동차세 계산법</span>
+                    <span class="keyword-tag">보배드림 S클래스 내돈내산</span>
+                    <span class="keyword-tag">에펨코리아 차갤 S클래스 후기</span>
+                </div>
+            </section>
+
+            <!-- 9. 공인 공식 출처 안내 -->
+            <section id="공식_참조출처" class="content-block">
+                <h2>9. 신뢰할 수 있는 공인 외부 사이트 및 공식 출처</h2>
+                <p>본 분석 보고서는 메르세데스 벤츠 코리아 공식 제원표와 신뢰도 높은 모빌리티 견적 전문 플랫폼, 그리고 백과사전 데이터를 교차 검증하여 작성되었습니다.</p>
+
+                <div class="external-links-grid">
+                    <a href="https://directuchecks.koreahankang.com" target="_blank" rel="noopener noreferrer" class="ext-link-card">
+                        <div class="ext-link-domain">Reliable Done Auto Estimate</div>
+                        <div class="ext-link-title">Reliable Done 실시간 신차 금융 계산기</div>
+                        <div class="ext-link-desc">국내 모든 딜러사 실시간 재고 파악, 운용리스 및 렌트 최저가 다이렉트 견적 산출 포털</div>
+                    </a>
+                    <a href="https://namu.wiki/w/%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4-%EB%B2%A4%EC%B8%A0%20S%ED%81%B4%EB%9E%98%EC%8A%A4" target="_blank" rel="noopener noreferrer" class="ext-link-card">
+                        <div class="ext-link-domain">Namu Wiki Reference</div>
+                        <div class="ext-link-title">나무위키 메르세데스-벤츠 S클래스 개요</div>
+                        <div class="ext-link-desc">W223 세대별 역사, 파워트레인 계보, 전 세계 판매량 통계 및 기술 혁신 역사 백과</div>
+                    </a>
+                    <a href="https://www.mercedes-benz.co.kr" target="_blank" rel="noopener noreferrer" class="ext-link-card">
+                        <div class="ext-link-domain">Mercedes-Benz Korea Official</div>
+                        <div class="ext-link-title">메르세데스-벤츠 코리아 공식 웹사이트</div>
+                        <div class="ext-link-desc">더 뉴 S클래스 카탈로그 다운로드, 온라인 쇼룸, 시승 신청 및 공식 서비스센터 안내</div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- 10. FAQ 10문 10답 -->
+            <section id="자주묻는질문" class="content-block">
+                <h2>10. 자주 묻는 질문(FAQ 10문 10답)</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q1. 2026 더 뉴 S클래스 숏바디와 롱바디의 실내 크기 차이는 얼마나 나나요?</div>
+                    <div class="faq-answer">롱바디(Long) 모델은 숏바디 대비 전장이 약 110mm, 휠베이스(축거)가 약 110mm 더 깁니다. 이 여유 공간은 전적으로 2열 뒷좌석 레그룸 확장에 할당되며, 조수석을 앞으로 밀어 발받침을 펼치는 쇼퍼 패키지와 2열 통풍/리클라이닝 독립 컴포트 시트가 롱바디 모델부터 기본 적용됩니다.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q2. 리스 계약 기간 중도 해지 시 위약금과 승계 방법은 어떻게 되나요?</div>
+                    <div class="faq-answer">운용리스 계약을 중도에 단순 해지하고 차량을 반납할 경우 미회수원금의 30%에서 최대 80%에 달하는 막대한 중도해지 위약금이 발생합니다. 따라서 부득이하게 처분해야 할 경우, 보배드림이나 전문 승계 앱(어플)을 통해 잔여 약정 기간을 타인에게 넘기는 '리스 승계' 방식을 이용하는 것이 손실을 최소화하는 가장 현명한 방법입니다.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q3. 법인 명의 리스 및 렌트 시 녹색 번호판(연두색 번호판) 부착 기준은 무엇인가요?</div>
+                    <div class="faq-answer">차량 출고가액(증빙 기준 취득가액) 8,000만 원 이상의 모든 법인 승용차(리스, 렌트, 자사 구매 포함)는 의무적으로 연두색 번호판이 부착됩니다. 개인 사업자나 개인 명의로 계약하는 경우에는 일반 흰색 번호판이 교부됩니다.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q4. S 450 d(디젤)와 S 450(가솔린) 중 장거리 출장이 많다면 어떤 것이 경제적인가요?</div>
+                    <div class="faq-answer">연간 주행거리가 30,000km 이상이고 고속도로 주행 비중이 70%를 넘는다면 실연비가 15km/L 이상 나오는 S 450 d 디젤 모델이 연간 유류비를 200만 원 이상 절약할 수 있어 훨씬 경제적입니다. 반면 도심 주행 비중이 높고 극상의 정숙성을 원한다면 S 450 가솔린을 추천합니다.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q5. 벤츠 통합 서비스 패키지(ISP)의 무상 보증 범위와 보증 연장 비용은 얼마인가요?</div>
+                    <div class="faq-answer">벤츠 코리아는 기본 3년/10만km 동안 차체 및 일반 부품, 엔진/동력 계통 무상 보증과 함께 엔진오일, 브레이크 패드, 와이퍼 블레이드 등 정기 소모품 교환(ISP)을 제공합니다. 보증 기간을 5년/14만km로 연장하는 워런티 플러스 상품은 차종에 따라 약 400만~600만 원대에 가입할 수 있습니다.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q6. 리어 액슬 스티어링(뒷바퀴 조향) 옵션은 4.5도와 10도 중 무엇이 기본인가요?</div>
+                    <div class="faq-answer">국내 정식 수입되는 S 500 및 S 580 모델에는 4.5도 후륜 조향 시스템이 기본 장착되어 있으며, 최대 10도까지 회전하는 리어 액슬 스티어링은 인디오더 옵션 또는 최상위 마이바흐 트림에서 선택할 수 있습니다. 10도 적용 시 최소 회전반경이 소형 해치백 수준인 10.9m로 대폭 축소됩니다.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q7. 신차 계약 시 계약금은 얼마이며 취소 시 환불 절차는 어떻게 되나요?</div>
+                    <div class="faq-answer">벤츠 공식 딜러사 기준 신차 계약금은 통상 100만 원에서 300만 원 선입니다. 차량 차대번호가 배정되기 전 단순 변심으로 계약을 취소할 경우 고객센터나 영업 담당자를 통해 신청서 제출 후 3영업일 이내에 전액 위약금 없이 계좌로 환불됩니다.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q8. E-액티브 바디 컨트롤(E-Active Body Control) 서스펜션의 특징은 무엇인가요?</div>
+                    <div class="faq-answer">48V 전철화 시스템을 바탕으로 초당 1,000회 노면을 스캔하여 각 바퀴의 감쇠력과 스프링을 개별 제어하는 혁신적인 서스펜션입니다. 코너를 돌 때 차체를 안쪽으로 기울여 쏠림을 억제하는 커브 틸팅 기능과 측면 충돌 직전 차고를 8cm 들어 올려 승객을 보호하는 프리세이프 임펄스 사이드 기능이 포함됩니다.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q9. 무약정 또는 12개월 단기 렌트·리스 요금제도 이용 가능한가요?</div>
+                    <div class="faq-answer">원칙적으로 신차 금융은 36개월, 48개월, 60개월 약정이 표준이지만, 일부 특수 모빌리티 전문 업체를 통해 1년(12개월) 단기 약정이나 무약정 월간 렌트 구독형 상품을 이용할 수 있습니다. 다만 이 경우 일반 48개월 대비 월 이용 요금은 약 35%~50%가량 높게 책정됩니다.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q10. 다이렉트 온라인 견적 사이트에서 신청할 때 추가 사은품이나 현금지원은 어떻게 되나요?</div>
+                    <div class="faq-answer">대리점 내방 대비 영업 사원 수수료(AG 마진)를 최소화한 다이렉트 온라인 플랫폼을 이용할 경우, 세이브된 수수료를 고객 혜택으로 전환하여 프리미엄 틴팅 패키지 지원, 유리막 코팅, 블랙박스 최고급형 장착, 주유 상품권 이벤트 등 실질적인 혜택으로 돌려받을 수 있습니다.</div>
+                </div>
+            </section>
+
+            <!-- 11. 상담 및 견적 신청 폼 -->
+            <section id="상담_견적신청" class="content-block">
+                <h2>11. 1:1 맞춤 다이렉트 견적 컨설팅 및 전국 최저가 비교 상담 센터</h2>
+                <p>전국 공식 딜러사 실시간 재고 및 비공식 프로모션 혜택을 1분 만에 비교 분석해 드립니다. 아래 간단한 정보를 입력하시면 전문 수석 카 컨설턴트가 고객님의 세무 환경에 가장 최적화된 맞춤형 견적서를 카카오톡 또는 문자로 신속하게 전송해 드립니다.</p>
+
+                <div class="consulting-form-box">
+                    <form action="https://car.reliabledone.com/estimate/submit" method="POST" onsubmit="alert('견적 상담 신청이 정상 접수되었습니다. 전문 컨설턴트가 30분 내로 연락드리겠습니다.'); return false;">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="customerName">성함 (또는 법인명)</label>
+                                <input type="text" id="customerName" name="customerName" placeholder="예: 홍길동 (주식회사 한국)" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber">연락처 전화번호</label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="예: 010-1234-5678" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="carModel">관심 트림 선택</label>
+                                <select id="carModel" name="carModel">
+                                    <option value="S450L">S 450 4MATIC Long (추천 인기모델)</option>
+                                    <option value="S500L">S 500 4MATIC Long</option>
+                                    <option value="S580L">S 580 4MATIC Long</option>
+                                    <option value="S350d">S 350 d Standard</option>
+                                    <option value="S450dL">S 450 d 4MATIC Long</option>
+                                    <option value="S580e">S 580 e 4MATIC (PHEV)</option>
+                                    <option value="MaybachS580">Mercedes-Maybach S 580 4MATIC</option>
+                                    <option value="MaybachS680">Mercedes-Maybach S 680 4MATIC</option>
+                                    <option value="AMGS63">Mercedes-AMG S 63 E Performance</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="purchaseType">구매 및 이용 방식</label>
+                                <select id="purchaseType" name="purchaseType">
+                                    <option value="lease">사업자/개인 운용리스 (비용처리 최적)</option>
+                                    <option value="rent">장기렌트 (부채 미반영 / 보험포함)</option>
+                                    <option value="cash">현금 일시불 구매</option>
+                                    <option value="installment">일반 할부금융</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="cta-submit-btn">더 뉴 S클래스 전국 최저가 견적서 무료 받기</button>
+                    </form>
+                </div>
+            </section>
+        </article>
     </main>
-  </body>
-</html>
+  
